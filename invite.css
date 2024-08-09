@@ -1,0 +1,60 @@
+.invite{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 6px solid #E89945;
+    padding: 10px;
+    font-size: 22px;
+    color: #333;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0px 0px 12px rgba(0, 123, 255, 0.1);
+    outline: none;
+
+}
+.invite::placeholder {
+	font-size: 22px
+}
+    .scroll {
+      height: 100%;
+      overflow: auto;
+      width: 100%;
+	  display: 'flex',
+	  flex
+    }
+    .scroll-item {
+	  min-height: 56px;
+      width: 100%;
+
+      display: flex;
+      align-items: center;
+
+      background-image: url("./icons/rankitem.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      margin-bottom: 12px;
+	  
+    }
+    .scroll-item div {
+      margin-left: 24px;
+    }
+    .scroll-item img {
+      width: 40px;
+	  margin-left: 24px;
+    }
+    .scroll-item div:nth-child(1) {
+	  width: 40px;
+      font-size: 28px;
+	  text-align: center;
+    }
+    .scroll-item-name {
+      font-size: 18px;
+	  width: 100px;
+	  text-overflow: ellipsis;
+	  overflow: hidden;
+    }
+    .scroll-item-score {
+      font-size: 18px;
+    }
+.loading {
+	display: flex;
+	justify-content: center;
+}

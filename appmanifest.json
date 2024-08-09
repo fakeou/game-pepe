@@ -1,0 +1,17 @@
+{
+	"name": "PEPE'S Leap Adventure",
+	"short_name": "PEPE'S Leap Adventure",
+	"description": "Pepe's Leap Adventure\" is a Play-to-Earn (P2E) GameFi platform where players earn tradable Pepe Coins",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "any",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon.png",
+			"sizes": "190x183",
+			"type": "image/png"
+		}
+	],
+	"screenshots": []
+}
